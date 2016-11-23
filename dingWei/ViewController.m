@@ -55,7 +55,7 @@
     CLLocation*newLocation=locations[0];
     NSLog(@"经度：%f", newLocation.coordinate.longitude);
     NSLog(@"纬度：%f", newLocation.coordinate.latitude);
-    
+    NSLog(@"====%s=====%@=====",__func__,@"逆地理也可以实现");
     //成功就停止定位
     // 2.停止定位
     [manager stopUpdatingLocation];
